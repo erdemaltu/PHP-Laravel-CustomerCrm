@@ -14,7 +14,7 @@ Veri tabanı işlemleri `Repository` ve `Service` katmanlarıyla soyutlanmışt�
 ### 1️⃣ Depoyu klonlayın
 ```bash
 git clone https://github.com/erdemaltu/PHP-Laravel-CustomerCrm.git
-cd customer_crm
+cd PHP-Laravel-CustomerCrm
 ```
 
 ### 2️⃣ Bağımlılıkları yükleyin

@@ -20,7 +20,6 @@ cd PHP-Laravel-CustomerCrm
 ### 2️⃣ Bağımlılıkları yükleyin
 ```bash
 composer install
-npm install && npm run build
 ```
 
 ### 3️⃣ .env dosyasını oluşturun

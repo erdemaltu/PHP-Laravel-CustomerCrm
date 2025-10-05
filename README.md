@@ -119,7 +119,11 @@ Bu sayede bir işlem yarım kalırsa veritabanı eski haline döner.
 ### **5. DataTables Entegrasyonu**
 - jQuery DataTables kullanılarak server-side veri yükleme sağlanmıştır.  
 - Arama, sıralama ve sayfalama işlemleri backend tarafından yapılır.  
-- 10K kayıt için performanslı bir yapı sağlanmıştır.  
+- 10K kayıt için performanslı bir yapı sağlanmıştır. 
+
+**Not:** Proje kapsamında `yajra/laravel-datatables-oracle` paketi **bilinçli olarak kullanılmamıştır**.
+Bu paket, Laravel ile DataTables arasında hazır bir köprü sağlar.  
+Otomatik olarak sorgulama, sıralama, arama ve sayfalama işlemlerini yönetir. 
 
 **Performans Optimizasyonu:**
 - “Tümü” seçeneğinde en fazla **1000 kayıt** yüklenir.  
